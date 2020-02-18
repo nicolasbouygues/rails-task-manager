@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 2020_02_18_104837) do
     t.boolean "completed", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.boolean "deleted", default: false
   end
 
 end
